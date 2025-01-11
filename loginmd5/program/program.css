@@ -1,0 +1,113 @@
+/* Gaya untuk header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #4caf50, #2196f3);
+    color: white;
+}
+
+header .program-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+a {
+    color:black;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.programName {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50; /* Initial color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.programName:hover {
+    transform: scale(1.2); /* Enlarge the button */
+    background-color: #45a049; /* Change color on hover */
+}
+
+.programName:active {
+    transform: scale(1.1); /* Slightly smaller when pressed */
+    background-color: #388e3c; /* Change color when pressed */
+}
+
+
+/* Gaya untuk konten utama */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Gaya untuk tombol (link) */
+.program-button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px;
+    background: #2196f3;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.program-button:hover {
+    background: #1769aa;
+}
+
+/* Gaya untuk section program */
+#programA, #programB, #programC {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+}
+/* Gaya untuk footer */
+footer {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer .social-media {
+    margin-top: 10px;
+}
+
+footer .social-media a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer .social-media a:hover {
+    text-decoration: underline;
+}

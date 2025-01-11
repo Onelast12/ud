@@ -1,0 +1,173 @@
+/* Gaya untuk header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #4caf50, #2196f3);
+    color: white;
+}
+
+header .program-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+h1 {
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+h2 {
+    background-color: #4CAF50;
+    background: linear-gradient(to right, #4caf50, #2196f3);
+
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+/* Gaya untuk formulir */
+.form-container {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto 20px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.form-container h2 {
+    margin-bottom: 15px;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+
+.form-container button {
+    /* background-color: #4CAF50; */
+    background: linear-gradient(to right, #4caf50, #2196f3);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.form-container button:hover {
+    background-color: #45a049;
+    
+}
+
+/* Gaya untuk tabel */
+.nilai-container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.nilai-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.nilai-table th,
+.nilai-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.nilai-table th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
+
+.nilai-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.nilai-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Gaya untuk tombol (link) */
+.program-button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px;
+    background: #2196f3;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.program-button:hover {
+    background: #1769aa;
+}
+
+/* Gaya untuk footer */
+footer {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer .social-media {
+    margin-top: 10px;
+}
+
+footer .social-media a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer .social-media a:hover {
+    text-decoration: underline;
+}
